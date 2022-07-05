@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+   
+    
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    background-color: #0e1116;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.conteudo{
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 30px;
+    background-color: #15181f;
+}
+
+.perfil{
+    text-align: center;
+}
+
+.perfil .img-perfil{
+    border-radius: 50%;
+    max-width:300px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+    border: 5px solid;
+    padding: 5px;
+    border-radius: 50%;
+    border-color: #7800cd;
+}
+
+.informacoes ul{
+    text-align: center;
+    padding: 0;
+}
+
+.informacoes li{
+    list-style-type: none;
+}
+
+.informacoes a{
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.informacoes .behance{
+    background-color: #0051e7;
+    margin: 5px;
+    padding: 20px 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.informacoes .behance:hover{
+    background-color: #1769ff;
+    -webkit-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
+
+.informacoes .linkedin{
+    background-color: #004e6f;
+    margin: 5px;
+    padding: 20px 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.informacoes .linkedin:hover{
+    background-color: #007bb0;
+    -webkit-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
+
+.informacoes .git{
+    background-color: #000000;
+    margin: 5px;
+    padding: 20px 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.informacoes .git:hover{
+    background-color: #1a1a1a;
+    -webkit-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
+
+.informacoes .pessoal{
+    background-color: #AD310B;
+    margin: 5px;
+    padding: 20px 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.informacoes .pessoal:hover {
+    background-color: #dd4814;
+    -webkit-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
+
+.rodape{
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+.direitos{
+    text-decoration: none; 
+}
+
+
